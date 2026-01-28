@@ -50,16 +50,15 @@ body {
 
 /* flexbox properties to layout the content of the emoji cards */
 
-/* each emoji card is a flex container so the content flows from top to bottom and can be spaced more easily. */
 .emoji{
-    display:flex;
-    flex-direction: column;
-    background-color: #fff;
+    display:flex; /* this allows vertical stacking */
+    flex-direction: column; /* stacks items top to bottom */
 }
 
 /* Content order */
 
 .icon{
+    text-align: center; /* centers emoji horizontally */
     margin: 1rem 0; /* adds space around the emoji icocon so it doesnt feel cramped between the heading and text*/
 }
 
