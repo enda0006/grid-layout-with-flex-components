@@ -34,6 +34,10 @@ body {
 }
 ```
 
+/* styling page header */
+.siteheader{
+    margin:1.5rem;
+}
 /* Grid properties to layout the emoji cards */
 
 /* this container holds all emoji cards. CSS Grid is used to place the cards in columns and autaumatically adjust based on screen size */
@@ -61,4 +65,11 @@ body {
 
 .emoji p{
     margin: 1rem 0; /*improves readability by adding spaces between paragraphs*/
+}
+
+/* Align buttons using flex box  */
+.emoji a{
+    margin-top: auto;
+    display: inline-block;
+    text-align: center;
 }
