@@ -33,3 +33,14 @@ body {
   font-size: 4rem;
 }
 ```
+
+/* Grid properties to layout the emoji cards */
+/* this container holds all emoji cards. CSS Grid is used to place the cards in columns and autaumatically adjust based on screen size */
+.emojis{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+
