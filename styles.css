@@ -40,7 +40,7 @@ body {
 }
 /* Grid properties to layout the emoji cards */
 
-/* this container holds all emoji cards.*/.  
+/* this container holds all emoji cards.*/
 .emojis{
     display: grid; /* CSS Grid is used to layout cards */
     grid-template-columns: repeat(2, 1fr); /* creating two colums */
@@ -59,16 +59,16 @@ body {
 
 .icon{
     text-align: center; /* centers emoji horizontally */
-    margin: 1rem 0; /* adds space around the emoji icocon so it doesnt feel cramped between the heading and text*/
+    margin: 1rem 0; /* adds space around the emoji icon so it doesnt feel cramped */
 }
 
 .emoji p{
+    line-height: 1.5;
     margin: 1rem 0; /*improves readability by adding spaces between paragraphs*/
 }
 
 /* Align buttons using flex box  */
 .emoji a{
     margin-top: auto;
-    display: inline-block;
     text-align: center;
 }
