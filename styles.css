@@ -40,11 +40,11 @@ body {
 }
 /* Grid properties to layout the emoji cards */
 
-/* this container holds all emoji cards. CSS Grid is used to place the cards in columns and autaumatically adjust based on screen size */
+/* this container holds all emoji cards.*/.  
 .emojis{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    display: grid; /* CSS Grid is used to layout cards */
+    grid-template-columns: repeat(2, 1fr); /* creating two colums */
+    gap: 2rem;  /* making space between cards */
     padding: 2rem;
 }
 
